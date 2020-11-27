@@ -3,7 +3,7 @@ from kafka import KafkaConsumer
 import numpy as np
 from time import sleep
 
-class Consumers():
+class camConsumers():
     def __init__(self, topic):
         self.topics = topic
         self.consumers = []
